@@ -119,7 +119,7 @@ div.categories{
 /* =========== PRODUCT CONTAINER ========== */
 div.product_container{
     /* padding: 20px; */
-    background-color: aquamarine;
+    background-color: rgb(255, 227, 198);
     width: 100%;
     min-height: 200px;
 }
@@ -139,9 +139,9 @@ div.product_container{
         margin: 20px 20px 20px 0px;
         display: inline-block;
         vertical-align: top;
-        background-color: thistle;
+        background-color: rgb(255, 239, 231);
         width: 60%;
-        min-height: 200px;
+        min-height: 300px;
         /* height: 500px; */
     }
     /* STARS ⭐️️️ */
@@ -149,14 +149,103 @@ div.product_container{
         height: 20px;
     }
     .product_container .right_product .desc{
-        background-color: azure;
+        background-color: rgb(255, 239, 231);
     }
 
 /* ===== lower div ==== */
 div.lower_div{
-    background-color: aqua;
+    background-color: rgb(250, 173, 68);
     min-height: 150px;
+    text-align: center;
 }
+
+
+/* similar in this category */
+/* =========== BEST SELLERS ========= */
+div.best_sellers{
+    background-color: rgb(254, 239, 231);
+    max-width: 1300px;
+    min-height: 300px;
+}
+    /* .best_sellers h5{
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+    } */
+    .best_sellers .items{
+        /* background-image: url(/images/bg_sale.jpg) */
+        padding: 5px;
+        padding-left: 0px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+        height:150px;
+        width: 320px;
+        /* max-width: 90%;
+        max-height: 90%; */
+        background-color: rgb(255, 227, 198);
+        text-align: right;
+    }
+
+        div.left_content{
+            vertical-align: top;
+            display: inline-block;
+            width: 150px;
+            height: 100%;
+            /* background-color: rgb(199, 230, 211); */
+
+        }
+        .best_sellers .items .left_content img{
+            border-radius: 15px;
+            display: inline-block;
+            /* background-color: blue; */
+            vertical-align: top;
+
+            width: 100%;
+            height: 100%;
+            /* height: 50px; */
+        }
+
+/* product name --------------- */
+        div.right_content{
+            display: inline-block;
+            width: 160px;
+            /* background-color: rgb(225, 212, 225); */
+            vertical-align: top;
+        }
+            .best_sellers .items .right_content .desc{ 
+                margin-left: 1px;
+                text-align: right;
+                width: 100%;
+                /* background-color: rgb(191, 240, 240); */
+                /* color: rgb(51, 6, 94); */
+                font-size: 9pt;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ============= FOOTER ============== */
@@ -224,10 +313,12 @@ button.addToCartBtn{
 /* ========== USER BUTTON LOGIN REGISTER ===== */
     button.logreg{
         vertical-align: top;
+        margin-top: 8px;
         background-color: white;
         border: 1px solid rgb(130, 39, 23);
         border-radius: 15px;
         height: 40px;
+        transition-duration: 0.4s;
     }
         button.logreg:hover{
             background-color: rgb(250, 173, 68);

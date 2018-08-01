@@ -125,6 +125,7 @@ div.slides{
 
 /* =========== BEST SELLERS ========= */
 div.best_sellers{
+    text-align: center;
     background-color: rgb(254, 239, 231);
     max-width: 1300px;
     min-height: 300px;
