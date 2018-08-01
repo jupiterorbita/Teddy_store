@@ -98,6 +98,10 @@ div.categories{
     color: white;
     font-size: 18pt;
 }
+    div.bar{
+        display: inline-block;
+        padding: 0px 40px 0px 40px;
+    }
 /* ====== LINKS COLOR ====== */
     .categories a:link{
         color: white;

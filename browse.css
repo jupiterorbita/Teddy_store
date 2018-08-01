@@ -98,6 +98,10 @@ div.categories{
     color: white;
     font-size: 18pt;
 }
+    div.bar{
+        display: inline-block;
+        padding: 0px 40px 0px 40px;
+    }
 /* ====== LINKS COLOR ====== */
     .categories a:link{
         color: white;
@@ -129,7 +133,7 @@ div.left_filter{
     padding: 10px;
 }
     .left_filter .filter_price{
-        background-color: aquamarine;
+        background-color: rgb(255, 239, 232);
         width: auto;
         /* height: 100px; */
         height: auto;
@@ -161,7 +165,7 @@ div.content{
     }
     /* --------- PRODUCT IMG --------- */
         .content .item .product_img{
-            border-radius: 15px 0px 15px 15px;
+            border-radius: 15px 15px 15px 15px;
             width: 150px;
             margin: 5px;
             display: inline-block;
@@ -282,3 +286,24 @@ div.topNav .search button{
             button.logreg:hover{
                 background-color: rgb(250, 173, 68);
             }
+
+/* ============ each product ADD to CARD BUTTON */
+.item button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid #4CAF50; 
+    background-color: white; /* Green */
+    /* webkit-transition-duration: 0.4s; Safari */
+    transition-duration: 0.4s;
+}
+    .item button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    }
