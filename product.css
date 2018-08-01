@@ -1,0 +1,234 @@
+/* Product CSS */
+
+*{
+    /* outline: 1px dotted red; */
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.wrapper{
+    /* align-content: center; */
+    margin-left: 8%;
+    margin-right: 8%;
+    min-height: 500px;
+    max-width: 1300px;
+}
+
+
+/* ============ TOP NAV ============= */
+div.topNav{
+    overflow: hidden;
+    background-color: rgb(254, 239, 231);
+    min-height: 42px;
+    align-content: center;
+}
+/* ---------- LOGO ---------- */
+    .topNav img{
+        width: 180px;
+        display: inline-block;
+    }
+    /* ---------- SEARCH ------- */
+    .topNav .search{
+        vertical-align: top;
+        margin-top: 10px;
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .topNav input{
+        /* margin-top: 5px; */
+        padding: 6px;
+        border: none;
+        font-size: 17px;
+        width: 400px;
+        border-radius: 15px 0px 0px 15px;
+        -moz-border-radius: 15px;
+        border: solid 1px rgb(250, 173, 68);
+    }
+        .topNav .search img{
+            width: 14px;
+        }
+    /* .topNav .logreg button{
+        width: 80px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid rgb(130, 39, 23);
+        border-radius: 15px;
+    } */
+        .logreg img{
+            width: 40px;
+        }
+    /* CART============= */
+    .topNav .cart{
+        min-width: 30px;
+        height: 35px;
+        margin-top: 10px;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid rgb(130, 39, 23);
+    }
+        .cart img{
+            /* margin-top: 10px; */
+            display: inline-block;
+            vertical-align: top;
+            margin-top: -2px;
+            height: 30px;
+            width: 30px;
+        }
+        .cart .cart_num{
+            /* margin-top: 10px; */
+            color: rgb(130, 39, 23);
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 20pt;
+            margin-top: -5px;
+        }
+
+
+/* =========== CATEGORIES ============ */
+div.categories{
+    text-align: center;
+    background-color: rgb(130, 39, 23);
+    color: white;
+    font-size: 18pt;
+}
+/* ====== LINKS COLOR ====== */
+    .categories a:link{
+        color: white;
+        text-decoration: none;
+    }
+    .categories a:visited{
+        /* color: lightblue; */
+        color: white;
+    }
+    .categories a:hover{
+        color: rgb(250, 173, 68);
+    }
+    .categories a:active{
+        color: red;
+    }
+
+
+
+/* =========== PRODUCT CONTAINER ========== */
+div.product_container{
+    /* padding: 20px; */
+    background-color: aquamarine;
+    width: 100%;
+    min-height: 200px;
+}
+    .product_container .product_img{
+        margin: 20px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    /* -------- PRODUCT IMG ----------- */
+    .product_container img{
+        border-radius: 15px;
+        height: 320px;
+    }
+    .product_container .right_product{
+        padding: 10px;
+        border-radius: 15px;
+        margin: 20px 20px 20px 0px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: thistle;
+        width: 60%;
+        min-height: 200px;
+        /* height: 500px; */
+    }
+    /* STARS ⭐️️️ */
+    .product_container .right_product img{
+        height: 20px;
+    }
+    .product_container .right_product .desc{
+        background-color: azure;
+    }
+
+/* ===== lower div ==== */
+div.lower_div{
+    background-color: aqua;
+    min-height: 150px;
+}
+
+
+/* ============= FOOTER ============== */
+div.footer{
+    background-color: rgb(250, 173, 68);
+    height: 30px;
+    font-size: 8pt;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/**************************************
+**             BUTTONS               **
+**************************************/
+
+
+/* ====== SEARCH BUTTON ========= */
+div.topNav .search button{
+    /* background: linear-gradient(red, yellow); */
+    border: 1px solid rgb(250, 173, 68); 
+    border-radius: 0px 15px 15px 0px;
+    padding: 6px 10px;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(130, 39, 23);
+}
+    .search button:hover{
+        color: white;
+        background-color: rgb(250, 173, 68);
+    }
+
+
+/* ===== ADD TO CART BUTTON ======= */
+button.addToCartBtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* height: 40px;
+    width: 80px; */
+    padding: 10px 25px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #4CAF50; 
+    background-color: white; /* Green */
+    /* webkit-transition-duration: 0.4s; Safari */
+    transition-duration: 0.4s;
+}
+    button.addToCartBtn:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    }
+
+/* ========== USER BUTTON LOGIN REGISTER ===== */
+    button.logreg{
+        vertical-align: top;
+        background-color: white;
+        border: 1px solid rgb(130, 39, 23);
+        border-radius: 15px;
+        height: 40px;
+    }
+        button.logreg:hover{
+            background-color: rgb(250, 173, 68);
+        }
