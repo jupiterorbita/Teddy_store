@@ -48,17 +48,38 @@ div.topNav{
         .topNav .search img{
             width: 14px;
         }
-    /* .topNav .logreg button{
-        width: 80px;
-        height: 50px;
+
+/* ------------ LOGIN / REGISTER ----------  */
+.topNav .logreg{
+    min-width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(130, 39, 23);
+}
+    .logreg img{
+        /* margin-top: 10px; */
         display: inline-block;
         vertical-align: top;
-        border: 1px solid rgb(130, 39, 23);
-        border-radius: 15px;
-    } */
-        .logreg img{
-            width: 40px;
-        }
+        margin-top: -2px;
+        height: 30px;
+        width: 30px;
+    }
+    .logreg .logreg_text{
+        /* margin-top: 10px; */
+        color: rgb(130, 39, 23);
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 20pt;
+        margin-top: -5px;
+    }
+
+
+
     /* CART============= */
     .topNav .cart{
         min-width: 30px;

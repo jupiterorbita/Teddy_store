@@ -1,11 +1,11 @@
 {
   "name": "ecom",
   "version": "1.0.0",
-  "description": "demo ecommerce project",
+  "description": "demo ecommerce project TeddyStore",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "John Misirlakis",
   "license": "ISC"
 }
